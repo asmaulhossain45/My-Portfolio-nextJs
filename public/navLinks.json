@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Home",
+    "path": "/#home",
+    "icon": "FaUser"
+  },
+  {
+    "name": "About",
+    "path": "/#about",
+    "icon": "about-icon"
+  },
+  {
+    "name": "Skills",
+    "path": "/#skills",
+    "icon": "about-icon"
+  },
+  {
+    "name": "Testimonials",
+    "path": "/#testimonials",
+    "icon": "about-icon"
+  },
+  {
+    "name": "Contact",
+    "path": "/#contact",
+    "icon": "contact-icon"
+  }
+]
