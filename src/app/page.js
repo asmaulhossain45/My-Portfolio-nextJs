@@ -1,25 +1,19 @@
-import About from "@/Components/About/About";
-import Contact from "@/Components/Contact/Contact";
-import Footer from "@/Components/Footer/Footer";
-import Home from "@/Components/Home/Home";
-import Navbar from "@/Components/Navbar/Navbar";
-import Projects from "@/Components/Projects/Projects";
-import Services from "@/Components/Services/Services";
-import Skills from "@/Components/Skills/Skills";
-import Testimonials from "@/Components/Testimonials/Testimonials";
+import About from "./Sections/About/About.jsx";
+import Contact from "./Sections/Contact/Contact.jsx";
+import Home from "./Sections/Home/Home.jsx";
+import Projects from "./Sections/Projects/Projects.jsx";
+import Services from "./Sections/Services/Services.jsx";
+import Testimonials from "./Sections/Testimonials/Testimonials.jsx";
 
 export default function MainLayout() {
   return (
-    <main className="">
-      <Navbar />
+    <main>
       <Home />
       <About />
-      <Skills />
       <Services />
       <Projects />
       <Testimonials />
       <Contact />
-      <Footer />
     </main>
   );
 }

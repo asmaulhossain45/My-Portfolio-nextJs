@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div id="home" className="h-screen">
+    <div className="h-[30vh]">
       <h1>Home</h1>
     </div>
   );
