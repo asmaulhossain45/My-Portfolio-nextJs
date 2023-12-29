@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <nav className="flex flex-col items-center lg:justify-center gap-y-4 fixed h-max bottom-4 mt-auto lg:right-4 z-50 top-0 w-full lg:w-16 lg:max-w-md lg:h-screen">
       {/* ---- inner ---- */}
-      <div className="flex lg:flex-col items-center justify-between lg:justify-center gap-x-5 md:gap-x-8 lg:gap-y-6 px-6 md:px-10 lg:px-4 py-3 md:py-4 lg:py-7 bg-white/10 backdrop-blur-sm text-2xl md:text-3xl lg:text-xl rounded-full">
+      <div className="flex lg:flex-col items-center justify-between lg:justify-center gap-x-5 md:gap-x-8 lg:gap-y-6 px-6 md:px-10 lg:px-4 py-3 md:py-4 lg:py-7 bg-slate-200 backdrop-blur-sm text-2xl md:text-3xl lg:text-xl rounded-full">
         {navLinks.map(({ name, icon, path }, idx) => {
           return (
             <Link

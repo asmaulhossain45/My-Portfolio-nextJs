@@ -7,7 +7,7 @@ import Testimonials from "./Sections/Testimonials/Testimonials.jsx";
 
 export default function MainLayout() {
   return (
-    <main>
+    <main className="">
       <Home />
       <About />
       <Services />

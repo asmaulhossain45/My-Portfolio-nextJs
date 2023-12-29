@@ -1,8 +1,10 @@
+"use client";
+
 const Home = () => {
   return (
-    <div className="h-[30vh]">
+    <section id="home" className="h-screen">
       <h1>Home</h1>
-    </div>
+    </section>
   );
 };
 
